@@ -52,7 +52,25 @@
             echo " Nao é um numero Float/Real";
         }
 
+        echo "<hr>";
+
+        $x = 55.1;
         
+        echo $x;
+
+        echo "<hr>";
+
+        if(is_float($x)){
+            echo $x . ' Esse numero é Float.';
+        }
+
+        echo "<hr>";
+
+        if (is_float(55210)){
+            echo ' Esse numero é float';
+        }else{
+            echo ' Esse numero nao é float';
+        }
 
 
 
