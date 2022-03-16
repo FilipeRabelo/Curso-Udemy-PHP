@@ -17,9 +17,16 @@
         <h3>Tipos de dados</h3>
         <hr>
         <?php
+            echo "Numeros inteiros.";
+            echo '<br>';
 
+            $num_int1 = -44;
+            $num_int2 = 1024;
+            $num_int3 = 142;
 
-
+            echo $num_int1 + $num_int3 . "<br>";
+            echo $num_int2 * $num_int1 . "<br>";
+            echo ( $num_int3 / $num_int2 - $num_int2);
         ?>
     
 </body>
