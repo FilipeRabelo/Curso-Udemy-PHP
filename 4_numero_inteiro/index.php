@@ -31,10 +31,7 @@
             echo $a . " É um Numero inteiro";
         }else{
             echo $a . " Nao é um numero inteiro";
-        }
-
-        
-        
+        }        
 
 
     ?>
