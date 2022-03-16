@@ -28,6 +28,22 @@
             echo $num_int2 * $num_int1 . "<br>";
             echo ( $num_int3 / $num_int2 - $num_int2);
         ?>
+
+            <hr>
+
+        <?php
+
+            echo null;
+
+            $nome = null;
+
+            if(is_null($nome)){
+                echo "O valor é nulo (NULL)";
+            }else{
+                echo "O valor nao é nulo";
+            }
+
+        ?>
     
 </body>
 
