@@ -16,7 +16,11 @@
     <body>  
         <?php
             echo 'Hello World';
+            
+            echo '<hr>';
 
+            $nome = 'Filipe';
+            echo $nome;
 
 
 
