@@ -8,10 +8,19 @@
 </head>
 <body>
     <?php
-        $nome = 'Filipe';
+        $nome = ['Filipe ', 'Rafael ', 'Giulia '];
         $sobre_nome = 'Rabelo';
 
-        echo $nome . $sobre_nome;
+        echo $nome[2] . $sobre_nome . ' e ' . $nome[1] . $sobre_nome . ' sao filhos de ' . $nome[0] . $sobre_nome;
+
+
+
+
+    ?>
+    <hr>
+    <?php 
+        // Para checar as informacoes da maquina/servidor //
+        // phpinfo(); 
 
     ?>
 </body>
