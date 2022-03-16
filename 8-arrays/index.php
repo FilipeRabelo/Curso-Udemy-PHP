@@ -16,14 +16,18 @@
 <body>
     <?php
 
+        echo "<h3> Array simples </h3><hr>";
+
         $a = [1, 2, 3];
 
+        echo "Com var_dump( ) <br>";
         var_dump($a);
             echo"<br>";
         echo $a[1];
 
             echo "<hr>";
 
+        echo "Com pint_r( ) <br>";
         print_r($a);
             echo"<br>";
         echo $a[0];
