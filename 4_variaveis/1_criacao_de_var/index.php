@@ -25,6 +25,20 @@
 
         echo $teste;
 
+        echo "<br>";
+
+        $var1 = 556485;
+        $var2 = "Teste";
+        $var3 = true;
+
+        echo $var1;
+        echo "<br>";
+        echo $var2;
+        echo "<br>";
+        echo $var3;
+
+
+
     ?>
 </body>
 </html>
