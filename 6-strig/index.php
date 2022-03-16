@@ -15,10 +15,20 @@
 
     <body>  
         <?php
-            $nome = "Filipe";
+            $nome = "Filipe ";
+            $sobre_nome = 'Rabelo';
+            
+            echo $nome . $sobre_nome;
 
-            echo $nome;
+            echo "<hr>";
 
+            echo "Hello  'World' ";
+
+            echo "<hr>";
+
+            if(is_string($nome)){
+                echo "$nome $sobre_nome é uma String" ;
+            }
         ?>
     </body>
 </html>

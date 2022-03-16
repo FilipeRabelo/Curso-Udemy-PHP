@@ -39,9 +39,9 @@
         $b = "Teste";
 
         if(is_float($b)){
-            echo $b . " É um Numero Float/Real";
+            echo  "$b É um Numero Float/Real";
         }else{
-            echo $b . " Nao é um numero Float/Real";
+            echo "$b Nao é um numero Float/Real";
         }
 
         echo "<hr>";
