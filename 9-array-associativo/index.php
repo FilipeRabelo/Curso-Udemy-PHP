@@ -54,6 +54,13 @@
         echo "<hr>";
         echo "O carro possui vidros " . $carro["vidros"] . " nas " . $carro["portas"] . " portas.";
 
+        echo "<hr>";
+
+        // criando variavel com os elementos do array (Chave "KEY")
+        $portas = $carro["portas"];
+        $cor = $carro["cor"];
+
+        echo "O carro possui $portas portas e é da cor $cor!";
 
 
     ?>
