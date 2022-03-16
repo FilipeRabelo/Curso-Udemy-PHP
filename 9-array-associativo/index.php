@@ -62,6 +62,24 @@
 
         echo "O carro possui $portas portas e é da cor $cor!";
 
+        echo "<hr>";
+
+
+        //desafio
+
+        $pessoa = [
+            "nome" => "Filipe",
+            "cnh" => true,
+            "idade" => 32
+        ];
+
+        $idade = $pessoa["idade"];
+        $nome = $pessoa["nome"];
+
+        if($pessoa["idade"] >= 18){
+            echo "O $nome é maior de idade possui $idade";
+        }
+
 
     ?>
     

@@ -34,7 +34,7 @@
 
             echo "<hr>";
 
-            $arry1 = ["Rabelo", 201, false];
+            $arry1 = ["Rabelo", 201, false]; // com dados variados
             $arry = ["Filipe", 1005, true];
 
             print_r($arry);
