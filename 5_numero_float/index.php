@@ -15,6 +15,8 @@
 <body>
     <?php
 
+        echo "<h3>is_float() </h3>";
+
         $a = 1.12;
 
         echo $a;
@@ -24,7 +26,33 @@
         echo 12.5 + 1.3278;
         echo "<br>";
         echo 12 + 1.3278;
+        echo "<hr>";
 
+        if(is_float($a)){
+            echo $a . " É um Numero Float/Real";
+        }else{
+            echo $a . " Nao é um numero Float/Real";
+        }
+
+        echo "<hr>";
+
+        $b = "Teste";
+
+        if(is_float($b)){
+            echo $b . " É um Numero Float/Real";
+        }else{
+            echo $b . " Nao é um numero Float/Real";
+        }
+
+        echo "<hr>";
+
+        if(is_float(14578.25)){
+            echo " É um Numero Float/Real";
+        }else{
+            echo " Nao é um numero Float/Real";
+        }
+
+        
 
 
 
