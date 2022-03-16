@@ -15,7 +15,29 @@
 
 <body>
     <?php
-        
+
+        $a = [1, 2, 3];
+
+        var_dump($a);
+            echo"<br>";
+        echo $a[1];
+
+            echo "<hr>";
+
+        print_r($a);
+            echo"<br>";
+        echo $a[0];
+
+            echo "<hr>";
+
+            $arry1 = ["Rabelo", 201, false];
+            $arry = ["Filipe", 1005, true];
+
+            print_r($arry);
+            echo "<br>";
+            print_r($arry[1] + $arry1[1]);
+            echo "<br>";
+            print_r($arry[0] . " " . $arry1[0])
 
 
     ?>
