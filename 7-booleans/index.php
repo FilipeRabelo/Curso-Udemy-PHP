@@ -16,8 +16,39 @@
 
 <body>
     <?php
-        echo "Booleanos"
+        echo "Booleanos <br>";
+        echo true;
+        echo "<br>";
 
+        if(true){
+            echo "É verdadeiro <br";
+        }
+
+        if( 5 > 2){
+            echo "É verdadeiro! <br>";
+        }
+
+        echo "<hr>";
+
+        $pode_entrar = true;
+
+        if($pode_entrar){
+            echo "O usuario pode entrar! <br>";
+        }
+
+        $a = true;
+        
+        if(is_bool($a)){
+            echo "É um booleano <br>";
+        }
+
+        if(is_bool(false)){
+            echo "É um booleano <br> ";
+        }
+
+        if(0 == false){
+            echo "0 é considerado falso! <br>";
+        }
 
     ?>
 </body>
