@@ -17,7 +17,13 @@
     <?php
         $nome = "Filipe";
 
-        echo $nome;
+        echo $nome; 
+
+        echo "<br>";
+
+        $teste = "Algum valor";
+
+        echo $teste;
 
     ?>
 </body>
