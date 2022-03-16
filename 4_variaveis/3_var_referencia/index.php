@@ -18,8 +18,26 @@
 
     <?php
 
-       
+       $x = 10;
+       $y =& $x; 
 
+       echo $x ;
+       echo "<br>";
+       echo $y;
+
+       echo "<br>";
+
+       $y = 55;
+
+       echo $x;
+
+       echo "<br>";
+
+       $y = "Filipe";
+
+       echo $x;
+       echo "<br>";
+       echo $y;
     ?>
 
 </body>
