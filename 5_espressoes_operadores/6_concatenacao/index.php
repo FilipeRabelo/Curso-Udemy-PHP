@@ -18,23 +18,25 @@
 <body>
     <?php
        
-        $nome1 = "Filipe ";
-        $nome2 = "Rabelo ";
+        $nome1 = "Filipe";
+        $nome2 = "Rabelo";
 
         echo $nome1 . $nome2;
         echo "<hr>";
 
         $idade = 32;       
 
-        echo $nome1 . $nome2 . " possui " . $idade . " anos!"  ;
+        echo $nome1 . $nome2 . "possui" . $idade . "anos!"  ;
 
        echo "<hr>";
 
-       $saudacao = "Bom dia ";
-       $nome = "Giulia ";
+       $saudacao = "Bom dia";
+       $nome = "Giulia";
        $sobre_nome = "Rabelo";
 
-       echo $saudacao . $nome . $sobre_nome;
+       $frase =  $saudacao . " " . $nome . " " . $sobre_nome . ", como vc esta hoje?";
+
+       echo $frase;
 
 
     ?>
