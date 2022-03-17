@@ -37,6 +37,25 @@
         echo 13 % 9;       
         echo "<hr>";
 
+        $a = 20; 
+        $b = 4;
+
+        echo $a % $b;
+        echo "<hr>";
+
+        echo 154 % 54;
+        echo "<hr>";
+        echo 2158% 124;
+        echo "<hr>";
+
+        $x = 547;
+        $y = 3157;
+
+        echo $x % $y;
+        echo "<hr>";
+
+        echo 20 % 10;
+
 
     ?>
 </body>
