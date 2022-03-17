@@ -17,6 +17,27 @@
     <h3>Paramentros funcoes</h3>
     <?php
         
+        function soma($a, $b){
+
+            return $a + $b;
+
+        }
+
+        echo soma(4, 5);
+
+        echo "<hr>";
+
+        function adicionar($c, $d){
+
+            echo $c + $d;
+            echo "<br>";
+
+        }
+
+        adicionar(2, 4);
+        adicionar(6, 8);
+        adicionar(10, 10);
+
 
 
 
