@@ -55,8 +55,22 @@
         }else{
             echo "A é diferente de B <hr>";
         }
-        
 
+        $x = 5;
+        $y = 4 ;
+
+        if($x != $y){
+            echo "X é diferente de Y <hr>";
+        }
+
+
+        $y = $x + 1;
+
+        if ($x != $y){
+            echo "É diferente <hr>";
+        }else{
+            echo "Nao é diferente <hr>";
+        }
 
 
 
