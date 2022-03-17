@@ -23,11 +23,26 @@
 
         echo 5 ** 3;
         echo "<hr>";
+      
+        echo 2 ** 10;
+        echo "<hr>";
 
         echo 215 ** 6585;
         echo "<hr>";
 
         echo 215 ** 110;
+        echo "<hr>";
+
+        $a = 7;
+        $b = 4;
+
+        echo $a ** $b;
+        echo "<hr>";
+
+        $c = 12;
+
+        $d = $c ** $a;
+        echo $d;
         echo "<hr>";
 
 
