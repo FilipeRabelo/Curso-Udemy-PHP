@@ -15,7 +15,37 @@
 </head>
 
 <body>
+    <h3>Operadores de comparacao</h3>
+
     <?php
+        
+        if(3 == 3){
+            echo "Cond verdadeira";
+        }else{
+            echo "Cond NAO verdadeira";
+        }
+
+        echo "<br>";
+        
+        if(4 == 3){
+            echo "Cond verdadeira";
+        }else{
+            echo "Cond NAO verdadeira";
+        }
+
+        echo "<hr>";
+
+        $nome = "Filipe";
+        $nome_sistema = "Filipe";
+
+        if($nome == $nome_sistema){
+            echo "nome coincide";
+        }else{
+            echo "Nao verd";
+        }
+
+        
+
 
 
 
