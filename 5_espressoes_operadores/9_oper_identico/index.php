@@ -20,23 +20,40 @@
     <?php
         
         if(5 == "5"){
-            echo "5 é 5 <br>";
+            echo "5 é 5 '1'<br>";
         }
 
         echo "<hr>";
 
         if(5 === "5"){ // operador identico //
-            echo "5 é 5 <br>";
+            echo "5 é 5 '2'<br>";
         }else{
-            echo "5 nao é 5 <br>";
+            echo "5 nao é 5 '2'<br>";
         }
 
         echo "<hr>";
 
         if(5 === 5){
-            echo "5 é = 5";
+            echo "5 é = 5 '3'<br>";
         }else{
-            echo "nao é 5 = 5";
+            echo "nao é 5 = 5 '3' <br>";
+        }
+
+        echo "<hr>";
+
+        if(3 != "3"){
+            echo "3 é diferente de teste <hr>";
+        }else{
+            echo "Nao é diferente! <hr>";
+        }
+
+        $a = 4;
+        $b = 4;
+
+        if($a == $b){
+            echo "A é igual a B <hr>";
+        }else{
+            echo "A é diferente de B <hr>";
         }
         
 
