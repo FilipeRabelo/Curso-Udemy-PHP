@@ -19,71 +19,74 @@
 
     <?php
 
-        if(5 < 2 && 10 < 100){
-            echo "True";
-        }else{
-            echo "False";
-        }
+    if (5 < 2 && 10 < 100) {
+        echo "True";
+    } else {
+        echo "False";
+    }
 
-        echo "<hr>";
+    echo "<hr>";
 
-        if(5 > 2 && 10 < 100){
-            echo "True";
-        }else{
-            echo "False";
-        }
+    if (5 > 2 && 10 < 100) {
+        echo "True";
+    } else {
+        echo "False";
+    }
 
-        echo "<hr>";
+    echo "<hr>";
 
-        if(5 < 2 || 2 < 5){
-            echo "Ok";
-        }
+    if (5 < 2 || 2 < 5) {
+        echo "Ok";
+    }
 
-        echo "<hr>";
+    echo "<hr>";
 
-        if (!(5 > 2)) {
-            echo "ok";
-        }else{
-            echo "nao 2";
-        }
-        echo "<hr>";
-        if (!(50 < 2)) {
-            echo "ok";
-        }else{
-            echo "nao 2";
-        }
+    if (!(5 > 2)) {
+        echo "ok";
+    } else {
+        echo "nao 2";
+    }
+    echo "<hr>";
+    if (!(50 < 2)) {
+        echo "ok";
+    } else {
+        echo "nao 2";
+    }
 
-        echo "<hr>";
+    echo "<hr>";
 
-        /////////////////////////////
+    /////////////////////////////
 
-       echo "operador cast <br>";
+    echo "operador cast <br>";
 
-       $a = (string) 34;  // converte os tipos de dados // float, string, int //
-      
-       if($a === "34"){
-           echo "34 é string <hr>";
-       }
+    $a = (string) 34;  // converte os tipos de dados // float, string, int //
 
-       $b = (int) 12.9;
-       
-       if($b === 12){
-           echo "conversao 1 ok <br>";
-       }
+    if ($a === "34") {
+        echo "34 é string <hr>";
+    }
 
-       $c = (int) true;
+    $b = (int) 12.9;
 
-       if($c === 1){
-           echo "conversao 2 ok <br>";
-       }
+    if ($b === 12) {
+        echo "conversao 1 ok <br>";
+    }
 
-       $d = (int) [1, 2, 3];
+    $c = (int) true;
+
+    if ($c === 1) {
+        echo "conversao 2 ok <br>";
+    }
+
+    $d = (int) [1, 2, 3];
 
     //    if($d === 1.0, 2.0, 3.0){  nao dá
     //        echo "consersao 3 ok <br>";
     //    }
 
-       $e = (int) "testando"; // nao dá
+    $e = (int) "testando"; // nao dá
+
+
+
 
     ?>
 </body>
