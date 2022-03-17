@@ -22,7 +22,10 @@
             echo $multi . "<hr>";
 
             $divi = 123 / 48;
-            echo $divi;
+            echo $divi . "<hr>";
+
+            echo $soma * $divi;
+
 
         ?>
         
