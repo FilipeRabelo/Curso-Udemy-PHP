@@ -18,7 +18,12 @@
     <h3>Operador logico</h3>
 
     <?php
-      
+
+        if(5 > 2 && 10 < 100){
+            echo "true";
+        }else{
+            echo "False";
+        }
 
 
     ?>
