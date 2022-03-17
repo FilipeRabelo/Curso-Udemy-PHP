@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exponenciacao</title>
+    <title>concatenacao
+
+    </title>
     <style>
         body{
             background-color: aqua;
@@ -16,7 +18,23 @@
 <body>
     <?php
        
+        $nome1 = "Filipe ";
+        $nome2 = "Rabelo ";
 
+        echo $nome1 . $nome2;
+        echo "<hr>";
+
+        $idade = 32;       
+
+        echo $nome1 . $nome2 . " possui " . $idade . " anos!"  ;
+
+       echo "<hr>";
+
+       $saudacao = "Bom dia ";
+       $nome = "Giulia ";
+       $sobre_nome = "Rabelo";
+
+       echo $saudacao . $nome . $sobre_nome;
 
 
     ?>
