@@ -55,6 +55,8 @@
 
             global $teste;
 
+            
+
             echo "$teste global funcao";
 
         }
