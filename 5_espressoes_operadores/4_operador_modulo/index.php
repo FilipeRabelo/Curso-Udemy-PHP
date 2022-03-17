@@ -16,9 +16,26 @@
 <body>
     <?php
         echo"Operador modulo";
+        echo "<hr>";
 
-        
+        echo 12 % 2; //resto 0 numero pá
+        echo " Modulo, num pá <hr>";
 
+        echo 12 / 2;
+        echo " Divisao <hr>";
+
+        echo 13 % 2;
+        echo " Modulo, num impá <hr>";
+
+        echo 12 / 2;
+        echo " Divisao <hr>";
+
+        echo 13 % 2;
+        echo "<hr>";
+        echo 13 % 5;       
+        echo "<hr>";
+        echo 13 % 9;       
+        echo "<hr>";
 
 
     ?>
