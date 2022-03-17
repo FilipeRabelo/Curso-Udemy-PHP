@@ -19,13 +19,13 @@
         echo "Escopo local - variaveis";
         echo "<hr>";
 
-        $x = 10; 
+        $x = 10; // global
 
         echo "$x Global <hr>";
 
         function teste(){
             
-            $x = 5;
+            $x = 5; // local
 
             echo "$x Local <hr>";
 
@@ -33,14 +33,14 @@
 
         teste(); //Funcao sempre ser chamada //
 
-        echo "$x Global <hr>"; 
+        echo "$x Global <hr>";   // global
 
         teste();
 
 
         function testando(){
 
-            $x = 12;
+            $x = 12;  //local
 
             echo "$x local / 2 <hr>";
 
@@ -48,7 +48,7 @@
 
         testando();
 
-        echo "$x global <hr>";
+        echo "$x global <hr>";  //global
 
         teste();
 
@@ -57,10 +57,22 @@
             return $a + $b;
         }
 
-        echo soma(1, 5); //"A soma entre $a e $b é:  " . 
-        echo soma(8, 5);
-        echo soma(1, 9);
-        echo soma(1, 4);
+        echo soma(1, 5) . "<hr>"; //"A soma entre $a e $b é:  " . 
+        echo soma(8, 5) . "<hr>";
+        echo soma(1, 9) . "<hr>";
+        echo soma(1, 4) . "<hr>";
+
+        echo "$x Global <hr>";
+
+        $x = $x + 1;
+
+        echo "$x Global de x(10) + 1";
+
+        echo "<hr>";
+
+        $y = $x;
+
+        echo $y;
 
 
 
