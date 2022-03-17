@@ -19,7 +19,21 @@
 
     <?php
         
-       
+       $a = 4;
+       $b = 5;
+       $c = 6;
+
+       if($c > $b){
+           echo "$c é maior que $b <hr>";          
+       }
+
+       if($a < $b){
+           echo "$a é menor que $b <hr>";          
+       }
+
+       if($a < $c){
+           echo "$a é menor que $c <hr>";          
+       }
 
 
 
