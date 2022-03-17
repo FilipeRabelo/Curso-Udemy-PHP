@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <h3>Operadores identico</h3>
+    <h3>Operadores identico / nao identico</h3>
 
     <?php
         
@@ -73,6 +73,14 @@
         }
 
 
+        $exem = 5;
+        $exem2 = "5";
+
+        if($exem !== $exem2){
+            echo "nao é identico <hr>";
+        }else{
+            echo "é identico";
+        }
 
 
 
