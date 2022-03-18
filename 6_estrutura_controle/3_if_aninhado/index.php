@@ -99,9 +99,30 @@
 
     }
 
+    // EXERCICIO //
+    echo "<hr> Exercicio 1 <br>";
+    
+    $velocidade = 60;
+
+    if($velocidade < 40){
+        echo "Velocidade correta";
+    }else if($velocidade == 40){
+        echo "Tome cuidado, velocidade perigosa";
+    }else{
+        echo "Velocidade acima de 40 km, Voce levou uma multa por excesso de velocidade";
+    }
+    
+
+    echo "<hr> Exercicio 2 <br>";
 
 
-
+    if($velocidade > 40){
+        echo "Multa por excesso de velocidade";
+    }else if($velocidade == 40){
+        echo "Cuidado";
+    }else{
+        echo "Velocidade compativel";
+    }
 
 
     ?>
