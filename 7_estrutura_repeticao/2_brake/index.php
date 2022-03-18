@@ -45,8 +45,9 @@
     //EXERCICIO//
 
     $loop = 4;
+    $limite = 30;
 
-    while($loop <= 30){
+    while($loop <= $limite ){
 
         echo "O loop esta em ... : " . $loop . "<br><br>";
 
