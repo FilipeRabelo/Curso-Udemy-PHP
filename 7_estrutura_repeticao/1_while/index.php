@@ -19,13 +19,25 @@
 
             echo "Inclemento <br><br>";
 
-            $x = 0; //inicio
+            $x = 0; //inicio DEFINICAO DO CONTADOR
 
-            while ($x <= 10) { // 10 Final
+            while ($x <= 10) { // INICIO / DEFINICAO DA ESTRUTURA ONDE O 10 É O FIM // 
 
-                echo "$x <br>";  
+                echo "$x <br>";  //CORPO DO LOOP
 
-                $x++; // x = x + 1 loop
+                $x++; // x = x + 1 loop INCREMENTO DO CONTATOR
+
+            }
+
+            echo "<hr>";
+
+            $a = 0; //inicio DEFINICAO DO CONTADOR
+
+            while ($a <= 10) { // INICIO / DEFINICAO DA ESTRUTURA ONDE O 10 É O FIM // 
+
+                echo "$a <br>";  //CORPO DO LOOP
+
+                $a += 2; // x = x + 1 loop INCREMENTO DO CONTATOR
 
             }
 
@@ -34,12 +46,32 @@
             
             echo "Declemento <br><br>";
 
-            $y = 50;
+            $y = 10;
 
             while($y >= 0){
+
                 echo "$y <br>";
+
                 $y--;
+
             }
+
+            echo "<hr>";
+
+            $impar = 0;
+
+            while($impar <= 10){
+
+                if($impar % 2 != 0){   // IF PARA MOSTRAR SOMENTE OS NUMEROS IMPARES //
+
+                    echo $impar . "<br>";
+
+                }
+
+                $impar ++;
+                
+            } 
+
             
 
 
