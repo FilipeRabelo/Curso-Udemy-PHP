@@ -18,7 +18,71 @@
         <h3>Estrutura if aninhado</h3>
     <?php
 
-        
+    if(10 > 2) {
+
+        echo "Entrou no primeiro if <hr>";
+
+        if("teste" == "teste") {
+
+            echo "Entrou no segundo if <hr>";
+
+        }else{
+
+            echo "Entrou no 2 else 1 if true, 2 if false";
+
+        }
+
+    }else{
+
+        echo "Entrou no primeiro else, primeiro if false, ele passa direto eo nao entra no 2 if";
+
+    }
+
+    echo "<hr>";
+
+    if(10 > 2) {
+
+        echo "Entrou no primeiro if <hr>";
+
+        if("teste" != "teste") {
+
+            echo "Entrou no segundo if <hr>";
+
+        }else{
+
+            echo "Entrou no 2 else - 1 if true, 2 if false";
+
+        }
+
+    }else{
+
+        echo "Entrou no primeiro else, primeiro if false, ele passa direto eo nao entra no 2 if";
+
+    }
+
+    echo "<hr>";
+
+    if(10 == 2) {
+
+        echo "Entrou no primeiro if <hr>";
+
+        if("teste" != "teste") {
+
+            echo "Entrou no segundo if <hr>";
+
+        }else{
+
+            echo "Entrou no 2 else - 1 if true, 2 if false";
+
+        }
+
+    }else{
+
+        echo "Entrou no primeiro else <br>  Primeiro if FALSE  <br> Ele passa direto e NAO ENTRA no 2 if";
+
+    }
+
+
       
 
     ?>
