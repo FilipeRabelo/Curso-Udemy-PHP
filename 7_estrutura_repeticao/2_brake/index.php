@@ -42,6 +42,8 @@
 
     echo "Exercicio <br><br>";
 
+    //EXERCICIO//
+
     $loop = 4;
 
     while($loop <= 30){
@@ -50,7 +52,7 @@
 
         if($loop === 24){
 
-            echo "Terminando loop em 24 <br>";
+            echo "Terminando loop em $loop <br>";
             break;
             
         }
