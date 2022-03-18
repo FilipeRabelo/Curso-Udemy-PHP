@@ -19,6 +19,18 @@
 
     <?php
 
+        // +=, -=, /=, *= e %= //
+        //Eles fazem uma operacao antes da atribuicao //
+
+        // +=
+        $a = 1;
+        $a += 10; // $a = $a + 10; == 11;
+
+        echo $a . "<hr>"
+
+        
+
+
       
 
 
