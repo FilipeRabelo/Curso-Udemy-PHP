@@ -69,9 +69,28 @@
                 }
 
                 $impar ++;
-                
+
             } 
 
+            echo "<hr>";
+            echo "Exercicio <br><br>";
+
+            $arr = array("Filipe", 54, true, "sol", "lua", 548, 874, -578, "Giulia", "Rafael");
+
+            $x = count($arr);
+            $y = 0;
+
+            while ($y < $x){
+
+                if(is_string($arr[$y])) {
+
+                    echo $arr[$y] . "<br>";
+
+                }
+
+                $y++;
+
+            }   
             
 
 
