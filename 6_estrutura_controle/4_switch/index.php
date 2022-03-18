@@ -18,7 +18,30 @@
     <h3>Estrutura switch</h3>
     <?php
 
-    
+        $x = 5;
+
+        switch ($x){
+
+            case 0;
+                echo "X é igual a 0 <br>";
+                break;
+
+            case 1;
+                echo "X é igual a 1 <br>";
+                break;
+
+            case 2;
+                echo "X é igual a 2 <br>";
+                break;
+
+            case 55;
+                echo "X é igual a 55 <br>";
+                break;
+
+            default:
+            echo "X nao é igual a nenhum numero";   
+
+        }
 
 
     ?>
