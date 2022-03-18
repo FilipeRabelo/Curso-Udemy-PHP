@@ -19,12 +19,24 @@
 
     <?php
 
-        
-      
-        
+        echo 5 > 2 ? "A condicao Deu true" : "A condicao Deu false";
+
+        echo "<hr>";
+
+        echo 5 > 2 &&  0 === "0" ? "true" : "false";
+
+        echo "<hr>";
+
+        $a = 55;
+        $b = "Filipe";
+
+        echo $a == 55 || $b === "Filipe" ? "Tudo certo" : "errado"
 
 
-      
+
+
+
+
 
 
 
