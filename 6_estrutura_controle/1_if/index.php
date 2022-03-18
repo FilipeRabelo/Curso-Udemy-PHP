@@ -27,7 +27,96 @@
             echo "Negado";
         }
 
+        echo "<hr>"; 
+
+
+        if (5 > 0) {
+            echo "Entrou no if pq deu true ";
+        }
+
+        echo "<hr>"; 
+
+        if (2 > 5) {
+            echo "nao vai entrar no if pq deu false"; # code...
+        }else{
+            echo "nao vai entrar no if pq deu false";
+        }
+
         echo "<hr>";
+
+        $a = 5;
+        $b = 2;
+
+        $c = "$a é maior que $b";
+
+        if ($a > $b) {
+            echo "$c";
+        }
+
+        echo "<hr>";
+
+        $nome1 = "Filipe";
+        $nome2 = "Pedro";
+
+        $m = "$nome1 é diferente de $nome2";
+
+        if ($nome1 != $nome2) {
+            echo $m;
+        }
+
+        echo "<hr>";
+
+        $x = 12;
+        $y = 11;
+
+        $res1 = "Res 1: $x é maior ou igual a $y";
+        $res2 = "Res 2: $x nao é maior ou igual a $y";
+
+        if ($x >= $y) {
+            echo $res1;
+        }else{
+            echo $res2;
+        }
+
+        echo "<hr>";
+
+        // function operacao($x, $y){
+        //     echo ($x >= $y);
+        // }
+
+        // operacao(56, 2);
+
+        $idade_1 = 15;
+        $idade_2 = 45;
+        $idade_3 = 10;
+
+        if ($idade_1 >= 18) {
+            echo "Pode entrar";
+        }else{
+            echo "nao pode entrar";
+        }
+
+        echo "<hr>";
+
+        if ($idade_2 >= 18) {
+            echo "Pode entrar"; # code...
+        }else{
+            echo "Nao pode entrar!";
+        }
+
+        echo "<hr>";
+
+        if ($idade_3 >= 18) {
+            echo "pode entrar!"; # code...
+        }else{
+            echo "Nao pode entrar";
+        }
+
+        echo "<hr>";
+
+
+
+
 
     ?>
 
