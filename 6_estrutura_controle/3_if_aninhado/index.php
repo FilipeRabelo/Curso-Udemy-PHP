@@ -15,75 +15,94 @@
 </head>
 
 <body>
-        <h3>Estrutura if aninhado</h3>
+    <h3>Estrutura if aninhado</h3>
     <?php
 
-    if(10 > 2) {
+    if (10 > 2) {
 
         echo "Entrou no primeiro if <hr>";
 
-        if("teste" == "teste") {
+        if ("teste" == "teste") {
 
             echo "Entrou no segundo if <hr>";
-
-        }else{
+        } else {
 
             echo "Entrou no 2 else 1 if true, 2 if false";
-
         }
-
-    }else{
+    } else {
 
         echo "Entrou no primeiro else, primeiro if false, ele passa direto eo nao entra no 2 if";
-
     }
 
     echo "<hr>";
 
-    if(10 > 2) {
+    if (10 > 2) {
 
         echo "Entrou no primeiro if <hr>";
 
-        if("teste" != "teste") {
+        if ("teste" != "teste") {
 
             echo "Entrou no segundo if <hr>";
-
-        }else{
+        } else {
 
             echo "Entrou no 2 else - 1 if true, 2 if false";
-
         }
-
-    }else{
+    } else {
 
         echo "Entrou no primeiro else, primeiro if false, ele passa direto eo nao entra no 2 if";
-
     }
 
     echo "<hr>";
 
-    if(10 == 2) {
+    if (10 == 2) {
 
         echo "Entrou no primeiro if <hr>";
 
-        if("teste" != "teste") {
+        if ("teste" != "teste") {
 
             echo "Entrou no segundo if <hr>";
-
-        }else{
+        } else {
 
             echo "Entrou no 2 else - 1 if true, 2 if false";
-
         }
-
-    }else{
+    } else {
 
         echo "Entrou no primeiro else <br>  Primeiro if FALSE  <br> Ele passa direto e NAO ENTRA no 2 if";
+    }
+
+    /////////////////////////////////////////////////
+    //exercicio
+
+    echo "<hr>";
+
+    $a = 55;
+
+    $b = "teste";
+
+    $c = "teste";
+
+    if (is_int($a) || is_float($a)) {
+
+        $a *= 2;
+
+        echo $a . "<br>";
+
+        if ($a > 100) {
+            echo "$a é maior do que 100";
+        } else {
+            echo "$a nao 'emaior do que 100";
+        }
+
+    } else {
+
+        echo "$a nao é um numero";
 
     }
 
 
-      
+
+
+
 
     ?>
 
