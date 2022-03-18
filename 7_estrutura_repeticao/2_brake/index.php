@@ -21,14 +21,14 @@
     echo "Break <br><br>";
 
     $x = 0;
-    
+
     while ($x < 10) {
 
         echo "O X é o $x <br>";
 
         if($x === 5 ){  //qndo o x for = a 5 ele sai do loop com o break
 
-            echo "Terminando o Loop";
+            echo "Terminando o Loop <br>";
 
             break;  // para sair do loop
 
@@ -38,7 +38,30 @@
          
     }
 
-    echo "saiu do loop";
+    echo "Saiu do loop <hr>";
+
+    echo "Exercicio <br><br>";
+
+    $loop = 4;
+
+    while($loop <= 30){
+
+        echo "O loop esta em ... : " . $loop . "<br><br>";
+
+        if($loop === 24){
+
+            echo "Terminando loop em 24 <br>";
+            break;
+            
+        }
+
+        $loop += 2;
+
+
+    }
+
+
+
 
 
 
