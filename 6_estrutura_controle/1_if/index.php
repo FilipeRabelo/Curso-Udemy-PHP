@@ -86,30 +86,33 @@
 
         // operacao(56, 2);
 
-        $idade_1 = 15;
-        $idade_2 = 45;
-        $idade_3 = 10;
+        $idade_1 = 16;
+        $idade_2 = 18;
+        $idade_3 = 26;
+
+        $maioridade = "Pode entrar";
+        $menor_idade = "nao pode entrar";
 
         if ($idade_1 >= 18) {
-            echo "Pode entrar";
+            echo $maioridade;
         }else{
-            echo "nao pode entrar";
+            echo $menor_idade;
         }
 
         echo "<hr>";
 
         if ($idade_2 >= 18) {
-            echo "Pode entrar"; # code...
+            echo $maioridade;
         }else{
-            echo "Nao pode entrar!";
+            echo $menor_idade;
         }
 
         echo "<hr>";
 
         if ($idade_3 >= 18) {
-            echo "pode entrar!"; # code...
+            echo $maioridade;
         }else{
-            echo "Nao pode entrar";
+            echo $menor_idade;
         }
 
         echo "<hr>";
