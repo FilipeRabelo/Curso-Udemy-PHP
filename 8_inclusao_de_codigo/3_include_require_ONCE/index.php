@@ -9,3 +9,5 @@
 ?>
 
 <p>Testando codigo!.</p>
+
+<?= "Teste"; ?>
