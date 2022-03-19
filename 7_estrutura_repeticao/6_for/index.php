@@ -17,10 +17,57 @@
 <body>
 
     <h3>For - PHP</h3>
+    <hr>
 
     <?php
 
+    //contador ; condicao ; incremento/decremento//
+
+    for($x = 0; $x <= 10; $x++){
+
+        echo "Contador $x <br>";
+
+        if($x == 5 || $x == 7){
+
+            $x++;
+            
+            continue;
+            
+        }
+
+    }
+
+    echo "<hr>";
+
+    for($i = 10; $i >= 0; $i--){
+
+        echo "Contador $i <br>";
+
+        if($i == 5){
+
+            $x--;
+            
+            break;
+        }
+
+    }
+
+    echo "<hr>";
+
+
+    // For Aninhado
     
+    for($y = 0; $y <= 10; $y++){  
+
+        echo "<br>Primeiro for '$y' <br><br>";
+
+        for($z = 0; $z <= 5; $z++){
+            echo "Segundo for $z <br>";
+        }
+
+    }
+
+
 
 
 
