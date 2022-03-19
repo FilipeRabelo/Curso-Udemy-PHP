@@ -22,7 +22,14 @@
         $nomes = ["Filipe", "Giulia", "Rafael", "Daniela"];
 
         foreach($nomes as $nome){
+
             echo "O nome do indice atual é $nome <br>";
+
+            if($nome == "Filipe"){
+                echo "Opa, deu certo, nome é $nome. <br>";
+            }
+
+
         }
 
 
