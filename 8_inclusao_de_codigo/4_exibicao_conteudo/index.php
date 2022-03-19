@@ -9,7 +9,7 @@ $sobre_nome = "Rabelo";
 
     <div>
         <label for="">Digite seu nome:</label>
-        <input type="text" value="<?= $nome; ?>">
+        <input type="text" value="<?= $nome; ?>"> 
     </div>
 
     <div>
