@@ -23,6 +23,20 @@
 
     //contador ; condicao ; incremento/decremento//
 
+    $nome = "Filipe";
+
+    for($n = 0; $n <= 10; $n++){
+
+        echo "Testando com if de nome de variavel $n <br>";
+
+        if($n == 5){
+            echo "$nome <br>";
+        }
+
+    }
+
+    echo "<hr>";
+
     for($x = 0; $x <= 10; $x++){
 
         echo "Contador $x <br>";
@@ -56,7 +70,7 @@
 
 
     // For Aninhado
-    
+
     for($y = 0; $y <= 10; $y++){  
 
         echo "<br>Primeiro for '$y' <br><br>";
