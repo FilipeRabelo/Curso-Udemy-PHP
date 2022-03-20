@@ -30,12 +30,14 @@
 
     //Mais parametros
 
-    function descrever_animal($nome, $raca){
+    function descrever_animal($nome1, $raca){  // 2 Parametros
 
-        echo "O nome do animal é $nome e é da raça $raca! <br>";
+        echo "O nome do animal é $nome1 e é da raça $raca! <br>";
 
     }
 
     descrever_animal("Bob", "Pastor alemão");
     descrever_animal("Shark", "Pit Bull");
     descrever_animal("Toys", "Maltes");
+
+    //
