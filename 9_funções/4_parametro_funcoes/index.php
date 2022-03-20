@@ -61,3 +61,18 @@
     echo "<hr>";
 
     //Exercicio
+
+    function parOuImpar($x){
+
+        if($x % 2 !== 1){
+            echo "$x é um numero Pá. <br>";
+        }else{
+            echo "$x é um numero Impá. <br>";
+        }
+
+    }
+
+    parOuImpar(5);
+    parOuImpar(254);
+    parOuImpar(6);
+    parOuImpar(875);
