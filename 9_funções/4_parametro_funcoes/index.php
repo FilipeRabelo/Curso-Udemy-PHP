@@ -5,7 +5,7 @@
 
 <?php
 
-    function velocidade_maxima($vel){
+    function velocidade_maxima($vel){  //1 parametro
 
         if(is_int($vel)){
             echo "O carro atingiu a velocidade maxima de $vel km/h <br>";
@@ -25,4 +25,17 @@
     velocidade_maxima("teste");
 
 
+    echo "<hr>";
 
+
+    //Mais parametros
+
+    function descrever_animal($nome, $raca){
+
+        echo "O nome do animal é $nome e é da raça $raca! <br>";
+
+    }
+
+    descrever_animal("Bob", "Pastor alemão");
+    descrever_animal("Shark", "Pit Bull");
+    descrever_animal("Toys", "Maltes");
