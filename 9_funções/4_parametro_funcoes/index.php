@@ -40,4 +40,20 @@
     descrever_animal("Shark", "Pit Bull");
     descrever_animal("Toys", "Maltes");
 
-    //
+    echo "<hr>";
+
+    //Exercicio
+
+    function saudacao($nome, $idade){
+
+        echo "Ola meu nome é $nome e tenho $idade anos de idade. <br>";
+
+    }
+
+    saudacao("Filipe", 32);
+    saudacao("Giulia", 6);
+    saudacao("Rafael", 4);
+
+    echo "<hr>";
+
+    //Exercicio
