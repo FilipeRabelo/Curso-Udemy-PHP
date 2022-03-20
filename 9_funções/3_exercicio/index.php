@@ -30,10 +30,10 @@
 
     function nome_completo(){
 
-        $a = "Filipe";
-        $b = "Rabelo";
+        $nome = "Filipe";
+        $sobre_nome = "Rabelo";
 
-        $nome_sobreNome = $a . " " . $b;
+        $nome_sobreNome = $nome . " " . $sobre_nome;
 
         echo $nome_sobreNome;
 
