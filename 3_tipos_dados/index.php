@@ -9,6 +9,7 @@
         body{
             background-color: aquamarine;
             text-align: center;
+            color: black;
         }
     </style>
 </head>

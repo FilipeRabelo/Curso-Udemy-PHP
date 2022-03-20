@@ -23,7 +23,7 @@
             // public $nome = " ";
 
             function falar(){
-                echo "Ola pessoal.";
+                echo "Ola pessoal";
             }
 
         }       
