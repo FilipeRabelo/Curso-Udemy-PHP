@@ -46,13 +46,17 @@
 
     function saudacao($nome, $idade){
 
-        echo "Ola meu nome é $nome e tenho $idade anos de idade. <br>";
+        if(is_string($nome) && is_int($idade)){
+            echo "Ola, meu nome é $nome e tenho $idade anos de idade. <br>";
+        }else{
+            echo "Por favor, digite seu nome e idade.<br>";
+        }
 
     }
 
     saudacao("Filipe", 32);
-    saudacao("Giulia", 6);
-    saudacao("Rafael", 4);
+    saudacao(6, "Giulia");
+    saudacao("Rafael", "ola");
 
     echo "<hr>";
 
