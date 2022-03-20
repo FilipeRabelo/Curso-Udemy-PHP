@@ -33,5 +33,13 @@
     // FUNCAO DO PHP PARA DEIXAR AS LETRAS MAIUSCULAS //
 
     echo strtoupper("testando funÇÃo");
-    
+    echo "<hr>";
+
+    //EXERCICIO//
+
+    $arr = ["Filipe", "Giulia", "Rafael", "Daniela", "Monica"];
+
+    $teste = implode(", ", $arr);  // IMPLODE junta um array em uma string (junta os valores)ç
+
+    echo $teste;  //Atribuir o nome da função a uma variavel //
    
