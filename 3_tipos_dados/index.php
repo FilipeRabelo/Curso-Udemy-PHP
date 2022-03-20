@@ -39,7 +39,7 @@
             $nome = null;
 
             if(is_null($nome)){
-                echo "O valor é nulo (NULL)";
+                echo "O valor é nulo.(NULL)";
             }else{
                 echo "O valor nao é nulo";
             }
