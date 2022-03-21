@@ -23,6 +23,8 @@
 
     echo "<hr>";
 
+    /////////////////////////////////////
+
 
     $frase_2 = "carro, aviao, moto, onibus, barco";
 
