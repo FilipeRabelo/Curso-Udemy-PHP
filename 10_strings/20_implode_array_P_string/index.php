@@ -19,6 +19,6 @@
     echo "<hr>";
 
     $arr_string = implode(", ", $arr);
+    
     echo $arr_string;
 
-    
