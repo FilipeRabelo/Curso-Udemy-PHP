@@ -29,3 +29,11 @@
     $frase_array_3 = explode(", ", $frase_2);
 
     print_r($frase_array_3);
+
+    echo "<br>";
+
+    for($i = 0; $i < count($frase_array_3); $i++){
+
+        echo "$frase_array_3[$i] <br>";
+
+    }
