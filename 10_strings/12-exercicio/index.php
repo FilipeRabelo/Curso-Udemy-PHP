@@ -8,8 +8,17 @@
    echo "<hr>";
 
 
-   
+
 
     $frase_completa = $frase . strtoupper($case);
 
     echo ucwords($frase_completa);
+
+
+
+
+    
+
+    echo "<hr>";
+
+    echo ucfirst($frase) . strtoupper($case);
