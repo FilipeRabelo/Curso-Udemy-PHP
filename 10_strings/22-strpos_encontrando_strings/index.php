@@ -4,7 +4,7 @@
     se reecebmeos algum valor é que o texto foi encontrado, e este valor é o indice inicial<br>
     se for retornado false, o texto nao esta na string<hr>";
 
-    $str =  "Estamos testando o metado strpos, com o strpos pódemos encontrar strings";
+    $str =  "Estamos testando o método strpos, com o strpos pódemos encontrar strings";
 
     $teste_encontrar = strpos($str,"strpos");
 
@@ -29,3 +29,9 @@
     echo $teste_encontrar3;
 
     echo "<hr>";
+
+    $palavra2 = "to";
+
+    $teste_encontrar4 = strpos($str, $palavra2);
+
+    echo $teste_encontrar4;
