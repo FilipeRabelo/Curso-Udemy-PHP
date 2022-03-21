@@ -9,4 +9,4 @@
 
     $frase_2 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, deserunt.";
 
-    echo strrev($frase_2);
+    echo strrev($frase_2); 
