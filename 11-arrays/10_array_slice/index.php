@@ -11,3 +11,4 @@
      $slice_1 = array_slice($arr, 1, 3);
 
      print_r($slice_1);
+     echo "<br>";
