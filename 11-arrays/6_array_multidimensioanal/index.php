@@ -14,6 +14,6 @@
         print_r($arr);
         echo "<hr>";
 
-        echo $arr[0][1];
+        echo $arr[0][1]; //acessando primeiro array e segundo elemento//
         echo "<br>";
-        echo $arr[1][2];
+        echo $arr[1][2]; // acessando segundo array e 3 elemento//
