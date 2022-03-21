@@ -7,4 +7,7 @@
     $str = "Testando o resto da string pra ver se dar certo";
 
     $rest = strstr($str, "resto");
-    echo $rest;
+
+    echo $rest;  //resto da string pra ver se dar certo//
+
+    
