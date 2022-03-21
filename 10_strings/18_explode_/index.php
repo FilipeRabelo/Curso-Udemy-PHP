@@ -6,7 +6,7 @@
 
     $frase = "Testando o explode";
 
-    $frase_array = explode(" ", $frase);
+    $frase_array = explode(" ", $frase); //TRANSFORMOU $FRASE => $FRASE_ARRAY//
 
     print_r($frase_array);
 
@@ -20,3 +20,12 @@
     $frase_array2 = explode(", ", $frase);
 
     print_r($frase_array2);
+
+    echo "<hr>";
+
+
+    $frase_2 = "carro, aviao, moto, onibus, barco";
+
+    $frase_array_3 = explode(", ", $frase_2);
+
+    print_r($frase_array_3);
