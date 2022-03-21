@@ -10,3 +10,27 @@
     $arr[] = 5;
 
     print_r($arr);
+    echo "<br>";
+
+    $arr[] = 6;
+    print_r($arr);
+
+    echo "<hr>";
+
+    $arr_1 = [];
+
+    $arr_1["teste"] = "testando";
+    
+    print_r($arr_1);
+
+    echo "<br>";
+
+    $arr_1["teste"] = "novoteste1";
+    print_r($arr_1);
+
+    echo "<br>";
+
+    $arr_1["testando"] = "novoteste2";
+    print_r($arr_1);
+
+    
