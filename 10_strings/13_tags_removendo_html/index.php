@@ -5,3 +5,11 @@
     Geralmente para salvar dados no banco de daos removemos as tags!
     ";
 
+
+    $texto_HTML = "<p> Testando paragrafo </p> <div> Uma div </div> <p> Outro paragrafo </p>";
+
+        echo $texto_HTML;
+
+    $salvar_texto_banco = strip_tags($texto_HTML);
+
+        echo $salvar_texto_banco;
