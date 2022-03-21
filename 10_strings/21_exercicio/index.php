@@ -1,11 +1,11 @@
 <?php
 
     $php = [
-        "O",
-        "PHP",
-        "é",
-        "muito",
-        "legal"
+            "O",
+            "PHP",
+            "é",
+            "muito",
+            "legal"
     ];
 
     $array_string = implode(" ", $php);
