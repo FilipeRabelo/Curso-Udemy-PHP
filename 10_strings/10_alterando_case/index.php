@@ -8,3 +8,12 @@
 
     echo "<hr>";
 
+
+
+    $str = "esta string esta em caixa baixa";
+
+    echo strtoupper($str) . "<br>";
+
+    $str2 = "ESTA STRING ESTA EM CAIXA ALTA";
+
+    echo strtolower($str2) . "<br>";
