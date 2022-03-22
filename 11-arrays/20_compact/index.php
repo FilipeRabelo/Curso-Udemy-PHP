@@ -26,7 +26,6 @@
     print_r($cadasto);
     echo "<hr>";
 
-
     foreach($cadasto as $key => $value){
 
         echo "$key: $value <br>";      
