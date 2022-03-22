@@ -17,17 +17,18 @@
 
     echo "<hr>";
 
-    $profissao = "programador";
-    $cidade = "Bh";
-    $estado = "Mg";
-    $tel = 34343043;
+        $Profissao = "programador";
+        $Cidade = "Bh";
+        $Estado = "Mg";
+        $Tel = 34343043;
 
-    $cadasto = compact("profissao", "cidade", "estado", "tel");
-
+    $cadasto = compact("Profissao", "Cidade", "Estado", "Tel");
     print_r($cadasto);
     echo "<hr>";
-    var_dump($cadasto);
 
-    foreach($cadasto as $cadasto => $key ){
-        echo $cadasto . ", ";
+
+    foreach($cadasto as $key => $value){
+
+        echo "$key: $value <br>";      
+
     }
