@@ -11,8 +11,8 @@
 
     class User{
 
-        // caracteristicas => Propriedades => Variaveis
-        // comportamentos => metados => funções 
+        // caracteristicas => Propriedades => Variaveis //
+        // comportamentos => Metados => Funções //
 
     }
 
