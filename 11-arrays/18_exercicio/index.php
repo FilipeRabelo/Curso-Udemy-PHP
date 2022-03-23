@@ -1,11 +1,30 @@
 <?php
 
-    $comida = ["batata", "maçã", "pera", "feijão", "arroz"];
+    // $livro = [
+    //     "nome" => "PHP",
+    //     "capa" => "dura",
+    //     "paginas" => 192,
+    //     "cor" => "branco",
+    //     "preco" => 15.90,
+    //     "tamanho" => "grande"
+    // ];
 
-    $removidos = array_splice($comida, 2, 2);
+    $nome = "PHP";
+    $capa = "Dura";
+    $paginas = 192;
+    $cor = "Branco";
+    $preco = 15.90;
+    $tamanho = "Grande";
 
-    print_r($comida);
+    $livro = compact("nome", "capa", "paginas", "cor", "preco", "tamanho");
 
+    print_r($livro);
+    echo "<hr>";
+    var_dump($livro);
     echo "<hr>";
 
-    print_r($removidos);
+    foreach($livro as $caracteristicas => $value){
+
+        echo "$caracteristicas: $value <br>";
+
+    }
