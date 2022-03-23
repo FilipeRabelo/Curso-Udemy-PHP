@@ -33,3 +33,29 @@
         echo "$caracteristicas => $value <br>";
 
     }
+
+    $cachorro = [
+        "nome" => "Pit",
+        "raca" => "pit-bull",
+        "idade" => 5,
+        "porte" => "grande"
+    ];
+
+    echo "<hr>";
+
+    foreach($cachorro as $caracteristicas2 => $value){
+
+        echo "$caracteristicas2 => $value <br>";   // CHAVE E VALOR        
+
+    }
+
+    echo "<hr>";
+
+    foreach ($cachorro as $value){
+
+        echo "$value <br>";     // SOMENE O VALOR //
+
+    }
+
+
+
