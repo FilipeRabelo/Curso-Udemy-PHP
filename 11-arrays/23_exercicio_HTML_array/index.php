@@ -11,7 +11,7 @@
 
 ?>
 
-<table>
+<table border="1px">
 
     <tr>
         <th>Nome:</th>
