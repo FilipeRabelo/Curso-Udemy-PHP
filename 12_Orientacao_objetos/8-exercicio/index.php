@@ -7,27 +7,36 @@
 
         function Andar($m){
 
-            echo "Eu andei $m metros hoje! <br>";
+            echo "Ele andou $m metros hoje! <br>";
 
         }
 
     }
 
-    $filipe = new Pessoa;
+    $filipe = new Pessoa; //instanciar
 
+    echo "O nome dele(a) é $filipe->nome e tem $filipe->idade anos de idade! <br>";
+    
     echo $filipe->Andar(5458);
-
-    echo $filipe->nome . "<br>";
-
-    echo "Possui: " . $filipe->idade . " anos de idade <br>"  ;
-
-
-
-
 
     echo "<hr>";
 
 
+
+    $rafael = new Pessoa;
+    // $rafael = new Pessoa2;
+
+
+    $rafael->idade = 4;    //Atribuindo novas variaveis
+    $rafael->nome = "Rafael";   //Atribuindo novas variaveis
+ 
+    echo "O nome dele(a) é $rafael->nome e possui $rafael->idade anos <br>";
+    echo $rafael->Andar(54);
+    // echo $rafael->Falar();
+
+
+
+    echo "<hr>";
 
 
 
