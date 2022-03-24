@@ -22,36 +22,36 @@
     echo "Possui: " . $filipe->idade . " anos de idade <br>"  ;
 
 
-echo "<hr>";
+    echo "<hr>";
 
-class Pessoa2{
+    class Pessoa2{
 
-    public $nome = "Giulia";
-    public $idade = 6;
+        public $nome = "Giulia";
+        public $idade = 6;
 
-    function Andar (){
+        function Andar (){
 
-        echo "Andando... <br>";
+            echo "Andando... <br>";
+
+        }
+
+        function Falar(){
+
+            echo "Bom dia ..";
+
+        }
 
     }
 
-    function Falar(){
+    $giulia = new Pessoa2;
 
-        echo "Bom dia ..";
-
-    }
-
-}
-
-$giulia = new Pessoa2;
-
-echo $giulia->Falar() . "<br>";
-echo $giulia->nome . "<br>";
-echo $giulia->idade . "<br>";
-echo $giulia->Andar() . "<br>";
+    echo $giulia->Falar() . "<br>";
+    echo $giulia->nome . "<br>";
+    echo $giulia->idade . "<br>";
+    echo $giulia->Andar() . "<br>";
 
 
-
+?>
 
 
 
