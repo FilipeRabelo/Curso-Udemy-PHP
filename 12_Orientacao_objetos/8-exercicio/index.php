@@ -24,7 +24,7 @@
 
 
     $rafael = new Pessoa;
-    // $rafael = new Pessoa2;
+    // $rafael = new Pessoa2;  
 
 
     $rafael->idade = 4;    //Atribuindo novas variaveis
