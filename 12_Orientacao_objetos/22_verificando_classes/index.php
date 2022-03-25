@@ -1,6 +1,6 @@
 <?php
 
-echo "Metodos que nos ajudam a entender as  classes<br>
+echo "Metodos que nos ajudam a entender as  CLASSES <br>
     
     class_exists() => Verifica se uma classe existe --> if(){}   <br>
     
@@ -41,6 +41,8 @@ echo "Metodos que nos ajudam a entender as  classes<br>
     }else{
         echo "A classe Carro nao existe<br>";
     }
+
+
 
     ///////////////////////
 
