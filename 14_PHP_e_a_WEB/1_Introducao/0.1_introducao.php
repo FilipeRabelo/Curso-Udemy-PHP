@@ -18,7 +18,7 @@
     </p>
 
     <p>
-        <span>DELETE: </span> Remoção de dados; Edeltar dados no banco de dados;
+        <span>DELETE: </span> Remoção de dados; deletar dados no banco de dados;
     </p>
 
     <p>
