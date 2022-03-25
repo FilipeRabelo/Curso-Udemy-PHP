@@ -8,5 +8,12 @@
 
 
     $d = date('d/m/y'); // day //month // year 
+        echo $d . "<hr>";
 
-    echo $d;
+    $d2 = date("d, M - Y"); // ou date('D, M - Y')
+        echo $d2 . "<hr>";
+
+    $d3 = date("d/m/Y");
+        echo $d3 . "<hr>";
+
+        echo date('l jS \of F Y h:i:s A');
