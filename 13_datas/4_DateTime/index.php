@@ -9,3 +9,14 @@
     $data_atual = new DateTime();
 
     print_r($data_atual);
+
+    echo "<hr>";
+
+    var_dump($data_atual);
+
+    echo "<hr>";
+
+    
+
+
+   
