@@ -1,11 +1,11 @@
 <?php
 
-echo
-"Classes anonimas sao criadas em uma VARIAVEL e nao possuem NOME<br>
-Elas funcionam como qualquer outra classe<br>
-Precisamos fechar ela com ';'
+    echo
+    "Classes anonimas sao criadas em uma VARIAVEL e nao possuem NOME<br>
+    Elas funcionam como qualquer outra classe<br>
+    Precisamos fechar ela com ';'
 
-Ex: $ anonima = new class (){}; <hr>";
+    Ex: $ anonima = new class (){}; <hr>";
 
 
 
