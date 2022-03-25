@@ -2,11 +2,11 @@
 
     echo "Temos metodos para entender os OBJETOS<br>
 
-    is_object() --> Verefica se uma VARIAVEL é um OBJETO  --> IF(){} <br> 
+    is_object() --> Verifica se uma VARIAVEL é um OBJETO  ou NÂO --> IF(){} <br> 
 
     get_class() --> Verifica a CLASSE de um OBJETO --> echo get_class()  <br> 
 
-    method_exists() --> Verefica se um METODO existe em um OBJETO  --> IF(){}  <hr>";
+    method_exists() --> Verefica se um METODO existe em um OBJETO  ou NÂO --> IF(){}  <hr>";
 
 
     class Humano {
