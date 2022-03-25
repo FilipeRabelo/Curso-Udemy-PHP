@@ -5,13 +5,15 @@
     ";
 
     $data = new DateTime(); //objeto
-
     print_r($data);
     echo "<hr>";
 
     $data->setDate(1999, 12, 01);
-
     print_r($data);
     echo "<hr>";
 
-    
+    $data->setTime(05,12,10);
+    print_r($data);
+    echo "<hr>";
+
+
