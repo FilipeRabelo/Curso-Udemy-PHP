@@ -2,7 +2,7 @@
 
     // print_r($_GET);
 
-    if( isset($_GET["nome"]) ) {
+    if( isset($_GET["nome"]) ) {   // PARA VERIFICAR SE O NOME FOI PREENCHIDO OU NAO
 
         $nome = $_GET["nome"];
         $idade = $_GET["idade"];        

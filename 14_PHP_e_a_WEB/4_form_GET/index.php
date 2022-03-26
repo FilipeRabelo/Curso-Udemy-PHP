@@ -1,3 +1,11 @@
+<h2>
+    vamos criar um formulario e definir o metado como GET e tambem o arquivo ou 
+    ROTA que vamos acessar em ACTION; <br>
+    No lado do servidor vamos acessar a variavel $_GET que contem os paramentros enviados
+    para o servidor <br>
+    Faremos o processamanto e retornamos algo para o usuario;
+</h2>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -22,7 +30,7 @@
         </div>
 
         <div>
-            <input type="text" name="idade" placeholder="Digie sua idade">  
+            <input type="text" name="idade" placeholder="Digite sua idade">  
         </div>
 
         <div>
