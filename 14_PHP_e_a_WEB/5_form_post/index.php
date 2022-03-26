@@ -1,5 +1,5 @@
 <h2>
-    vamos criar um formulario e definir o METODO(method) como POST e tambem o arquivo ou
+    Vamos criar um formulario e definir o METODO(method) como POST e tambem o arquivo ou
     ROTA que vamos acessar em ACTION; <br>
     No lado do servidor vamos acessar a variavel $_POST que contem os parametros enviados
     para o servidor <br>
@@ -26,8 +26,8 @@
 
         <!-- name é a chave q usamos para receber no backend -->
 
-    <form action="cadastro.php" method="POST" >
-
+    <form action="cadastro_veiculo.php" target="_blank" method="POST" >  <!-- ACTION é a rotas q vamos acessar / e o metodo é o POST--> 
+        
         <div>
             <input type="text" name="nome" placeholder="Marca do Carro">
         </div>
