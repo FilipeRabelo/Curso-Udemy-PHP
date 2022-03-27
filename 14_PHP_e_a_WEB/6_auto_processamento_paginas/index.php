@@ -1,3 +1,14 @@
+<?php
+
+$method = $_SERVER["REQUEST_METHOD"];
+
+?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -16,6 +27,7 @@
 
 <body>
 
+    <hr>
     <h3>
         Podemos criar uma pagina que faz o processamento dos dados e tambem exibe o input de informaçoes <br>
         Para isso devemos criar um IF() que checa se o metodo de requisição é ou não é um GET ou POST <br>
@@ -27,9 +39,29 @@
         <hr>
     </h3>
 
+    <?php
+        if($method == "GET"):        
+    ?>
+   
+    <form action="index.php" method="POST">
+        <div>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+        </div>   
+
+        <div>
+            <input type="submit" value="Enviar" name="" id="">        
+        </div>
+    </form>
+
+    <?php    
+        else:    
+    ?>
+
+    <?php
+        endif;
+    ?>
 
 </body>
-
 
 </html>
 
