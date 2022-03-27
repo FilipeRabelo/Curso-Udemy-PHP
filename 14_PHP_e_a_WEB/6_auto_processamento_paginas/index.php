@@ -1,12 +1,14 @@
 <?php
 
-$method = $_SERVER["REQUEST_METHOD"];
+    $method = $_SERVER["REQUEST_METHOD"];
+
+    if(isset($_POST["nome"])) {
+
+        $nome = $_POST["nome"];
+
+    }
 
 ?>
-
-
-
-
 
 
 <!DOCTYPE html>
@@ -27,20 +29,20 @@ $method = $_SERVER["REQUEST_METHOD"];
 
 <body>
 
-    <hr>
+    <!-- <hr>
     <h3>
         Podemos criar uma pagina que faz o processamento dos dados e tambem exibe o input de informaçoes <br>
         Para isso devemos criar um IF() que checa se o metodo de requisição é ou não é um GET ou POST <br>
         <br>
-        ($_SERVE['REQUEST_METHOD']); <br>
+        ($_SERVE['REQUEST_METHOD']); <br>  FAZ UMA REQUISICAO PARA A MESMA PAGINA Q ESTA! 
         <br>
         Depois criar as duas variações, para cada uma das possibilidades; <br>
         Ou checar se algum parametro veio pela requisição e então criar as variações.
         <hr>
-    </h3>
+    </h3> -->
 
     <?php
-        if($method == "GET"):        
+        if($method == "GET"):      // Abrir o IF   
     ?>
    
     <form action="index.php" method="POST">
@@ -54,11 +56,13 @@ $method = $_SERVER["REQUEST_METHOD"];
     </form>
 
     <?php    
-        else:    
+        else:    //Else do IF
     ?>
 
+        <h2>O seu nome é <?= $nome ?> </h2>
+
     <?php
-        endif;
+        endif;  // Para fechar o IF
     ?>
 
 </body>
