@@ -14,8 +14,7 @@
 
     $conn = new mysqli($host, $user, $pass, $bd);
 
-
-
+  
 
 ?>
 
