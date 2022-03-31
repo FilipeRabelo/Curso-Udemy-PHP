@@ -22,11 +22,11 @@
 
   $sql = "SELECT * FROM itens"; // QUERY // 
 
-  $result = $conn->query($sql); // METODO PARA EXECUTAR A QUERY, Colocamos o metodo numa variavel
+  $result = $conn->query($sql); // METODO QUERY( ) PARA EXECUTAR A QUERY -> COLCOAMOS TUDO NA VARIAVEL
 
   print_r($result);
 
-  $conn->close(); // FECHANDO CONEXÃO //  OBRIGATORIO FECHAR A CONEXÃO //
+  $conn->close( ); // FECHANDO CONEXÃO //  OBRIGATORIO FECHAR A CONEXÃO //
 
 
 
