@@ -7,4 +7,12 @@
 
   $conn = new mysqli($host, $user, $pass, $bd);
 
-  print_r($conn);
+  // criar a query
+
+  $table      = "itens";
+  $nome       = "Chicará";
+  $descricao  = "É uma chicara usada de cor rosa";
+  // TUDO DENTRO DE VARIAVEIS//
+  $q = "INSERT INTO $table (nome, descricao) VALUES ($nome, $descricao)";
+
+?>
