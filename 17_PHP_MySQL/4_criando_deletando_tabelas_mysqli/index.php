@@ -18,11 +18,11 @@
   // CRIANDO UMA TABELA COM COLUNAS //
 
   // $q de querie
-  // $q_criando = "CREATE TABLE teste (nome VARCHAR(100), sobre_nome VARCHAR(100))"; // NOVA TABELA NO BANDO 
+  $q_criando = "CREATE TABLE teste (nome VARCHAR(100), sobre_nome VARCHAR(100))"; // NOVA TABELA NO BANDO 
 
-  // $conn->query($q_criando); // CHAMANDO A NOVA TABELA $q PARA A CONEXÃO COM A QUERY//
+  $conn->query($q_criando); // CHAMANDO A NOVA TABELA $q PARA A CONEXÃO COM A QUERY//
 
-  // $conn->close(); //FECHANDO CONEXÃO //
+  $conn->close(); //FECHANDO CONEXÃO //
 
   // DELETANDO 
 
