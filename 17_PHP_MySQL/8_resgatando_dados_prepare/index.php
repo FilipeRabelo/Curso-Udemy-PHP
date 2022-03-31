@@ -11,30 +11,17 @@
 
   $stmt = $conn->prepare("SELECT * FROM itens WHERE id > ?");  // condicao where
 
-  $stmt->bind_param("i", $id);   // i de numero inteiro 
+  $stmt->bind_param("i", $id);    // i de numero inteiro 
 
-  $stmt->execute();    // exucutando a query
+  $stmt->execute();               // exucutando a query
 
-  $result = $stmt->get_result();    // pegamos o resultado da query
+  $result = $stmt->get_result();  // pegamos o resultado da query
 
-  $data = $result->fetch_all();  // transformando em arry e colocando em outra variavel
+  $data = $result->fetch_all();   // ALL(todos) transformando em arry e colocando em outra variavel
 
   print_r($data);
 
-
-
-
 ?>
-
-
-
-
-
-
-
-
-
-
 
 
   <!DOCTYPE html>
