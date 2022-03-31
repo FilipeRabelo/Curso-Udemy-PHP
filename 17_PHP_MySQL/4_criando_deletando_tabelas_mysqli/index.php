@@ -13,7 +13,18 @@
   $pass = "";
   $bd   = "cursophp";
 
-  $conn = new mysqli($host, $user, $pass, $bd);
+  $conn = new mysqli($host, $user, $pass, $bd);  //conexao//
+
+  // CRIANDO UMA TABELA COM COLUNAS //
+
+  // $q de querie
+  $q = "CREATE TABLE teste (nome VARCHAR(100), sobre_nome VARCHAR(100))"; // NOVA TABELA NO BANDO 
+
+  $conn->query($q); // CHAMANDO A NOVA TABELA $q PARA A CONEXÃO COM A QUERY//
+
+  $conn->close(); //FECHANDO CONEXÃO //
+
+  print_r($conn);
 
 
 
@@ -43,6 +54,9 @@
     </style>
   </head>
   <body>
-    
+
+ 
+
+
   </body>
   </html>
