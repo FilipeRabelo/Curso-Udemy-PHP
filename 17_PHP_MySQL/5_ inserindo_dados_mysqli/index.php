@@ -12,7 +12,12 @@
   $table      = "itens";
   $nome       = "Chicará";
   $descricao  = "É uma chicara usada de cor rosa";
-  // TUDO DENTRO DE VARIAVEIS//
-  $q = "INSERT INTO $table (nome, descricao) VALUES ($nome, $descricao)";
+
+  // TUDO DENTRO DE VARIAVEIS
+  $q = "INSERT INTO $table (nome, descricao) VALUES ('$nome', '$descricao')";
+
+  // PUXAR A CONEXÃO COM O METODO QUERY
+  $conn->query($q);
+
 
 ?>
