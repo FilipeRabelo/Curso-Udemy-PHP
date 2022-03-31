@@ -7,12 +7,12 @@
     </p> -->
 
 
-<?php
+<?php  
 
     $host = "localhost";
     $user = "root";
-    $pass = "";
-    $db   = "cursophpa";
+    $pass = "";       
+    $db   = "cursophp";
 
     $conn = new mysqli($host, $user, $pass, $db);
 
@@ -23,11 +23,11 @@
 
     if($conn->connect_errno) {
         echo "Erro na conexao! <br>";
-        echo "Erro: " . $conn->connect_error;  
+        echo "Erro: " . $conn->connect_error;   // FORMA ORIENTADA A OBJETOS //
        
     }
 
-?>// FORMA ORIENTADA A OBJETOS //
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -42,17 +42,14 @@
             text-align: center;
         }
     </style>
+
 </head>
-
-
-<body>
+    <body>
         <?php
-            $nome = "filipe";
+            $nome     = "Filipe";
+            $saudacao = "Ola mundo, eu sou o";
         ?>
         
-        <?php echo "ola mundo, eu sou o $nome"; ?>
-
-
-    
-</body>
+        <?php echo $saudacao . " " . $nome ?>    
+    </body>
 </html>
