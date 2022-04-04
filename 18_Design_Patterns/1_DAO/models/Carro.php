@@ -1,3 +1,11 @@
+
+<h1>  
+  Temos uma classe que define os metodos basicos pra gente poder manusear o OBJETO
+  o processamento envia os dados para meu DAO, e o DAO recebe aquele objeto 
+  pronto e e insere no banco
+</h1>
+
+
 <?php
 
   class Carro{
@@ -47,19 +55,19 @@
 
     public function setKm($km){
 
-      $this->km = $km;
+      $this->km = intval($km);
 
     }
 
         ////////////////////////////////////////////////////////    
 
-    public function getcor(){
+    public function getCor(){
 
       return $this->cor;   // O this é o objeto q vamos criar 
 
     }
 
-    public function setcor($cor){
+    public function setCor($cor){
 
       $this->cor = $cor;
 
@@ -67,7 +75,7 @@
 
   }
 
-  interface CarroDAO{
+  interface CarroDAOinterface{
 
     public function create(Carro $carro);
     public function findAll();
