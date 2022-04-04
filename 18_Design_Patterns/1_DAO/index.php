@@ -34,7 +34,26 @@
 </head>
 <body>
 
-    <h1>ola mundo</h1>
+    <h1>Insira um carro </h1>
+    <form action="process.php" method="POST">
+      <div>
+        <label for="marca">Marca do Carro</label>
+        <input type="text" name="marca" placeholder="Insira a marca:">
+      </div>
+
+      <div>
+        <label for="km">Kilometragem do Carro</label>
+        <input type="text" name="km" placeholder="Insira a Kilometragem:">
+      </div>
+
+      <div>
+        <label for="cor">Cor do Carro</label>
+        <input type="text" name="cor" placeholder="Insira a cor do carro:">
+      </div>
+      <input type="submit" value="Salvar">
+
+      
+    </form>
   
 </body>
 </html>

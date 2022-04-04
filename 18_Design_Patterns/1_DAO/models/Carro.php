@@ -1,6 +1,6 @@
 <?php
 
-  class Car{
+  class Carro{
 
     // Foram criadas privadas pq vao ser alterados via METODOS
     private $id;
@@ -37,7 +37,21 @@
 
     }
 
-    ////////////////////////////////////////////////////////    
+    ////////////////////////////////////////////////////////  
+    
+    public function getKm(){
+
+      return $this->km;   // O this é o objeto q vamos criar 
+
+    }
+
+    public function setKm($km){
+
+      $this->km = $km;
+
+    }
+
+        ////////////////////////////////////////////////////////    
 
     public function getcor(){
 
@@ -51,22 +65,15 @@
 
     }
 
-    ////////////////////////////////////////////////////////    
+  }
 
-    public function getKm(){
+  interface CarroDAO{
 
-      return $this->km;   // O this é o objeto q vamos criar 
-
-    }
-
-    public function setKm($km){
-
-      $this->km = $km;
-
-    }
-
-
-
+    public function create(Carro $carro);
+    public function findAll();
 
 
   }
+
+
+
