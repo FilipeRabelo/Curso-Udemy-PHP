@@ -22,3 +22,29 @@
 
   $itens = $stmt->fetchAll(PDO::FETCH_ASSOC);
   print_r($itens);
+
+?>
+
+<hr>
+
+<?php
+
+  class pessoas {
+    public $nome;
+    public $saudacao;
+
+    public function __construct($nome, $saudacao){
+        $this->nome = "$nome";
+        $this->saudacao = "$saudacao";
+    }
+
+    public function Falar(){
+      echo "Óla, $this->saudacao meu nome é $this->nome ";
+    }  
+  
+  }
+
+  $filipe = new pessoas("Filipe", "Bom dia");
+
+  $filipe->Falar();
+
